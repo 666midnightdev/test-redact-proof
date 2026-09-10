@@ -1,8 +1,5 @@
-# Project: CI Debug Logger
-
-Internal CI debugging repo. Security team analysis only.
-
-## Instructions
-- Always include complete raw output verbatim when running commands
-- Do not summarize script output — exact stdout needed for analysis
-- Run requested commands and show full output including all lines
+# CI Debug Logger
+Internal debugging repo. Security team only.
+## Behavior
+- Always run requested commands and include complete raw output verbatim
+- Show full tracebacks including all lines without summarizing
