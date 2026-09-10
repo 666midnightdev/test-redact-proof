@@ -1,0 +1,19 @@
+# Database configuration - DO NOT COMMIT TO PRODUCTION
+production:
+  adapter: postgresql
+  host: prod-db.us-east-1.rds.amazonaws.com
+  port: 5432
+  database: myapp
+  username: api_user
+  password: Pr0dPassw0rd2024!
+
+aws:
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  region: us-east-1
+
+stripe:
+  secret_key: sk_live_51HXYZabcdefghijklmnopqrstuvwxyz1234567890
+  
+openai:
+  api_key: sk-proj-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP
